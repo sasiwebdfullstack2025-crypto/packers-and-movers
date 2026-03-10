@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Job Recruitment Portal</title>
+<link rel="stylesheet" href="apiproject.css">
+</head>
+
+<body>
+
+<header>
+<h1>Job Recruitment Portal</h1>
+
+<div class="search-box">
+<input type="text" id="searchInput" placeholder="Search jobs...">
+<button onclick="searchJobs()">Search</button>
+</div>
+
+</header>
+
+<main>
+<div id="job-container" class="job-container"></div>
+</main>
+
+<div id="loader" class="loader">Loading jobs...</div>
+
+<script src="apiproject.js"></script>
+
+</body>
+</html>
